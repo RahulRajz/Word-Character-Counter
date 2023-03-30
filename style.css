@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+/* Main Div */
+.main{
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 400px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 20px;
+    background-color: rgb(141, 216, 191);
+}
+
+ /* For Heading Section */
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* TextArea Section */
+#textbox{
+    width: 460px;
+    height: 250px;
+    margin: 15px 20px;
+    font-size: 25px;
+    color: red;
+    border-radius:15px;
+    border-color: rgb(4, 0, 255);
+}
+
+/* For Result Section */
+.bottom{
+    margin: 2px 0px;
+    font-size: 1.5rem;
+    background-color: azure;
+    width: auto;
+    height: 65px;
+    border-radius: 20px;
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+span{
+    color: red;
+}
